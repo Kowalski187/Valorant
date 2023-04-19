@@ -1,0 +1,235 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+/*** Navbar ***/
+
+.bar {
+    display: none;
+}
+  
+nav {
+    display: flex;
+    background: #8b1717da;
+    justify-content: space-evenly;
+}
+  
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+  
+nav ul li {
+    margin: 4px;
+}
+  
+nav ul li a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+  
+nav ul li .aktiv {
+    color: #d4b2a0;
+}
+  
+nav ul li a:hover {
+    color: #d4b2a0;
+}
+
+/*** Startseite ***/
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.row img{ 
+    border-radius: 15px;
+}
+
+.begruessung-startseite {
+    margin-left: 15%;
+    font-size: 4rem;
+}
+
+.begruessung-startseite h2{
+    width: 700px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.08),
+                -10px -10px 10px rgba(255, 255, 255, 0.3);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.08),
+                -5px -5px 5px rgba(255, 255, 255, 0.3);
+    -webkit-text-stroke: 0.1vw #8b1717da;
+    color:white;
+}
+
+.begruessung-startseite a{
+    margin-left: 7rem;
+}
+
+.cover-bild-startseite {
+    flex: 1;
+    color: white;    
+    margin-left: 13%;
+}
+
+.info-bild-startseite{
+    flex: 1;
+    margin-left: 8%;
+}
+
+.info-text-startseite{
+    padding: 20px;
+    background-color: #dac64c;
+    margin-left:5%;
+    margin-right: 5%;
+    border-radius: 16px;
+    color: #292729;
+}
+
+.info-text-startseite h2{
+    font-size: 70px;
+    margin: 0;
+}
+
+.info-text-startseite p{
+    font-size: 25px;
+}
+
+.mitgliedwerden-schrift{
+    margin-left: 40%;
+}
+.mitgliedwerden-schrift a{
+    text-decoration: none;
+    color: black
+}
+
+.mitgliedwerden-schrift h2{
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #53cc54;
+    border-radius: 15px;
+    margin-bottom: 3%;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: black
+}
+
+.mitgliede-viperbild{
+    flex: 1;
+    margin: 0;
+    margin-left: 10%;
+}
+
+/*** Footer ***/
+
+footer{
+    padding: 10px;
+    background-color: #8b1717da;
+    font-size: 22px;
+}
+
+
+/*** Pearl ***/
+
+.pearl-ueberschrift{
+    margin-left: 16%;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pearl {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.pearl img{ 
+    border-radius: 15px;    
+}
+
+.pearl-bild-mapseite{
+    margin: 0px;
+}
+
+
+/*** Bind ***/
+
+.bind-ueberschrift{
+    margin-left: 16%;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bind-container{
+    border-bottom: solid 3px #8b1717da;
+}
+
+.bind {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.bind img{ 
+    border-radius: 15px;    
+}
+
+.bind-bild-mapseite{
+    margin: 0px;
+}
+
+/*** Maps ***/
+
+.ueberschrift-mapseite-container{
+    padding: 5px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2%;
+}
+
+.lotus-ueberschrift-img{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.mapseite-ueberschrift-lotus{
+    width: 200px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.08),
+                -10px -10px 10px rgba(255, 255, 255, 0.3);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.08),
+                -5px -5px 5px rgba(255, 255, 255, 0.3);
+    -webkit-text-stroke: 0.1vw #8b1717da;
+    color:white;
+}
+
+.mapbild-mapseite img{
+    border-radius: 15px;
+}
+
+.lotus {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+#agents-mapseite {
+    width: 8%;
+}
+
+
+
