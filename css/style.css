@@ -42,6 +42,41 @@ nav ul li a:hover {
     color: #d4b2a0;
 }
 
+.dropdown-maps{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-maps-content{
+    display: none;
+    position: absolute;
+    background-color: #ec5a5a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: black solid 1px;
+}
+
+.dropdown-maps-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: black 1px;
+    color: white;
+}
+
+.dropdown-maps-content a:hover{
+    background-color: #f78a8a;
+}
+
+.dropdown-maps:hover .dropdown-maps-content{
+    display: block;
+}
+
+#mapsseite-a{
+    color: black;
+}
 /*** Startseite ***/
 
 .row {
@@ -154,81 +189,148 @@ footer{
     margin-top: 3%;
 }
 
-.pearl img{ 
-    border-radius: 15px;    
-}
+
 
 .pearl-bild-mapseite{
     margin: 0px;
 }
 
-
-/*** Bind ***/
-
-.bind-ueberschrift{
-    margin-left: 16%;
-    font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.bind-container{
-    border-bottom: solid 3px #8b1717da;
-}
-
-.bind {
-    display: flex;
-    margin-bottom: 20px;
-    align-items: center;
-    margin-left: 5%;
-    margin-top: 3%;
-}
-
-.bind img{ 
-    border-radius: 15px;    
-}
-
-.bind-bild-mapseite{
-    margin: 0px;
-}
-
 /*** Maps ***/
 
-.ueberschrift-mapseite-container{
-    padding: 5px;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 2%;
-}
-
-.lotus-ueberschrift-img{
+.mapseite-container{
     display: flex;
-    margin-top: 2%;
     justify-content: center;
+    text-align: center;
 }
 
-.mapseite-ueberschrift-lotus{
-    width: 200px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.08),
-                -10px -10px 10px rgba(255, 255, 255, 0.3);
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.08),
-                -5px -5px 5px rgba(255, 255, 255, 0.3);
-    -webkit-text-stroke: 0.1vw #8b1717da;
-    color:white;
+.mapseite-ueberschrift-container h2{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 246, 195);
+    margin-left: 40%;
+    margin-right: 40%;
+    opacity: 0.9;
+    border: solid 1px black;
 }
 
-.mapbild-mapseite img{
+.agent-auswahl{
+    display: flex;
+}
+
+.agent-bild-mapseite img{
+    width: 50%;
+}
+
+.beschreibung-mapseite{
+    margin-top: 7%;
+    padding: 20px;
+    background-color: #e0d379;
+    opacity: 0.7;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: start;
     border-radius: 15px;
 }
 
-.lotus {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 1%;
+.beschreibung-mapseite h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin: 0;
 }
 
-#agents-mapseite {
-    width: 8%;
+.beschreibung-mapseite a{
+    font-size: 25px;
+}
+
+.alternativen-mapseite{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: #e0d379;
+    opacity: 0.7;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: start;
+    border-radius: 15px;
+}
+
+.alternativen-mapseite h3{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.alternativen-mapseite a{
+    font-size: 25px;
+}
+
+/*** Lotus ***/
+.hintergrundbild-mapseite-lotus{
+    height: 100%;
+    background-image: url(../img/lotus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*** Bind ***/
+.hintergrundbild-mapseite-bind{
+    height: 100%;
+    background-image: url(../img/Bind.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*** Ascent ***/
+.hintergrundbild-mapseite-ascent{
+    height: 100%;
+    background-image: url(../img/Ascent.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*** Pearl ***/
+.hintergrundbild-mapseite-pearl{
+    height: 100%;
+    background-image: url(../img/Pearl.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*** Split ***/
+.hintergrundbild-mapseite-split{
+    height: 100%;
+    background-image: url(../img/Split.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*** Haven ***/
+.hintergrundbild-mapseite-haven{
+    height: 100%;
+    background-image: url(../img/Haven.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*** Fracture ***/
+.hintergrundbild-mapseite-fracture{
+    height: 100%;
+    background-image: url(../img/Fracture.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
 
