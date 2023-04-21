@@ -357,16 +357,15 @@ nav ul li a:hover {
 
 .impressum{
     padding: 0px;
-    border-top: 2px solid white;
     text-align: center;
     color: white;
     padding: 10px;
     background-color:#8b1717da ;
-    margin-top: 3%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-decoration: none;
+    margin: 0;
 }
 
 .impressum a{
