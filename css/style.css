@@ -164,15 +164,6 @@ nav ul li a:hover {
     margin-left: 10%;
 }
 
-/*** Footer ***/
-
-footer{
-    padding: 10px;
-    background-color: #8b1717da;
-    font-size: 22px;
-}
-
-
 /*** Pearl ***/
 
 .pearl-ueberschrift{
@@ -333,5 +324,54 @@ footer{
     position: relative;
 }
 
+
+/*** Impressum/Datenschutz ***/
+
+.datenschutz-card{
+    margin: 10px 10%;
+    width: 80%;
+    color: black;
+    background-color: #e0d379;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+.datenschutz-card a{
+    text-decoration: none;
+    color: black;
+}
+  
+.impressum-card{
+    margin: 10px 10%;
+    width: 80%;
+    color: black;
+    background-color: #e0d379;
+    padding: 5px;
+    border-radius: 15px;
+}
+  
+.impressum-card a{
+    text-decoration: none;
+    color: Black;
+}
+
+.impressum{
+    padding: 0px;
+    border-top: 2px solid white;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color:#8b1717da ;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.impressum a{
+    text-decoration: none;
+    color: white;
+}
 
 
